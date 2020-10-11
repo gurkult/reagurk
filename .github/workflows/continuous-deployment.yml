@@ -2,23 +2,23 @@ name: Continuous Deployment
 
 on:
     push:
-        branches:
-            - main
-            - develop
+      branches:
+      - main
+      - develop
     
     jobs:
-        deploy:
-            name: Deploy 
-            runs-on: ubuntu-latest
+      deploy:
+        name: Deploy 
+        runs-on: ubuntu-latest
 
     env:
-        SOURCE_DIR: "build/"
+      SOURCE_DIR: "build/"
 
     steps:
-        - uses: actions/checkout@v1
+      - uses: actions/checkout@v1
 
         - name: Install dependencies
-            runs: yarn
+          run: yarn
 
         - name: Build 
-            runs: yarn build 
+          run: yarn build 
