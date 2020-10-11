@@ -18,7 +18,7 @@ on:
         - uses: actions/checkout@v1
 
         - name: Install dependencies
-            run: yarn
+            runs: yarn
 
         - name: Build 
-            run: yarn build 
+            runs: yarn build 
