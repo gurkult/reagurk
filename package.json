@@ -1,0 +1,23 @@
+{
+  "name": "Reagurk",
+  "version": "1.0.0",
+  "description": "Gurkan Gang central command",
+  "main": "backend/src/server.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaderH2O/Reagurk.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RaderH2O/Reagurk/issues"
+  },
+  "homepage": "https://github.com/RaderH2O/Reagurk#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
