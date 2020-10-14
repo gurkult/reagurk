@@ -1,10 +1,12 @@
 import React from 'react';
-import HeroBanner from "./components/HeroBanner";
+import {ParkingPage} from "./components/ParkingPage";
 import './App.css';
 
 function App() {
   return (
-    <HeroBanner />
+    <div>
+    <ParkingPage />
+    </div>
   );
 }
 
