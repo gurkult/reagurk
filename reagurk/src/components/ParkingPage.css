@@ -34,5 +34,9 @@
 }
 
 .navbar li a:hover{
+    -webkit-transition: background-color 1s ease-out;
+    -moz-transition: background-color 1s ease-out;
+    -o-transition: background-color 1s ease-out;
+    transition: background-color 1s ease-out;
     background-color: rgb(72, 207, 135);
 }

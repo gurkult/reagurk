@@ -34,6 +34,14 @@
     color: white;
 }
 
+.joinButton:hover{
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    
+    background-color: #edba00;
+    transform: scale(1.04);
+}
+
 @media only screen and (min-width: 600px){
     .card{
         width: 350px;
