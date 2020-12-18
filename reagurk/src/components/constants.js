@@ -1,5 +1,5 @@
-export const shopURL = 'https://www.redbubble.com/shop/ap/59684171';
-
-export const githubURL = 'https://github.com/fisher60/Reagurk';
+export const shopURL = 'https://gurkult.redbubble.com';
 
 export const discordInviteURL = 'https://discord.gg/W9DSfryp8Y';
+
+export const githubURL = 'https://github.com/gurkult/Reagurk'
