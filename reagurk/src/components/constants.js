@@ -1,3 +1,3 @@
-export const shopURL = 'https://www.redbubble.com/shop/ap/59684171';
+export const shopURL = 'https://gurkult.redbubble.com';
 
-export const githubURL = 'https://github.com/fisher60/Reagurk'
+export const githubURL = 'https://github.com/gurkult/Reagurk'
