@@ -28,7 +28,7 @@ export function ParkingPage(){
                 <p>Thank you for taking interest in the Gurkult. This site is currently a parking page while the site is under construction. We hope to see you again when this website is complete.</p>
                 <br/>
                 <p>If you would like to contribute to this open source React site, visit our <a href={githubURL} target="_blank" rel="noopener noreferrer">Github</a></p>
-                <p>Or if you would like to converse with other fellow gurkans, join our <a href={discordInviteURL}>discord server</a></p>
+                <p>Or if you would like to converse with other fellow gurkans, join our <a href={discordInviteURL} target="_blank" rel="noopener noreferrer">discord server</a></p>
             </div>
         </div>
         
