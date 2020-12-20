@@ -1,0 +1,12 @@
+.navbar {
+    background: #383;
+    padding: 20px;
+}
+
+.navbar-title::before {
+    font-family: "Font Awesome 5 Free";
+    content: "";
+    display: inline-block;
+    padding-right: 10px;
+    font-weight: 900;
+}
