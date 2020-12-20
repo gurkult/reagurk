@@ -1,6 +1,7 @@
 import React from 'react';
 import HeroBanner from "./components/HeroBanner";
 import NavBar from "./components/NavBar";
+import {ParkingPage} from "./components/ParkingPage";
 import './App.css';
 
 function App() {
@@ -8,6 +9,9 @@ function App() {
     <>
       <NavBar />
       <HeroBanner />
+    <div>
+    <ParkingPage />
+    </div>
     </>
   );
 }
