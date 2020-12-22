@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import gurkultImg from './images/parkingpage/gurkult.png';
 import {shopURL, githubURL} from './constants';
 import './ParkingPage.css';
@@ -17,6 +18,9 @@ export function ParkingPage(){
                     </li>
                     <li>
                         <a href={githubURL} target="_blank" rel="noopener noreferrer">Contribute</a>
+                    </li>
+                    <li>
+                        <NavLink target="_blank" to="/discord">Discord Server</NavLink>
                     </li>
                 </ul>
             </div>
