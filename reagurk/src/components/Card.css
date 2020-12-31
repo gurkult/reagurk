@@ -16,29 +16,52 @@
 
 .card ul{
     height: 100%;
+    list-style: none;
 }
 
 .card li{
-    font-size: 1.1rem;
+    font-size: 1.4rem;
+    height: 1.4rem;
     margin: 10px;
 }
 
-.joinButton{
+.checkmark{
+    height: 100%;
+}
+
+.cardButton{
     width: 90%;
     align-self: center;
     border-radius: 10px;
     margin-bottom: 10px;
     border: none;
     padding: 15px;
+    font-size: 1.2rem;
+}
+
+.join{
     background-color: #F8C300;
     color: white;
 }
 
-.joinButton:hover{
+.join:hover{
     transition: all .4s ease;
     -webkit-transition: all .4s ease;
     
     background-color: #edba00;
+    transform: scale(1.04);
+}
+
+.learnMore{
+    border-style: solid;
+    border-color: #F8C300;
+    background-color: white;
+    color: #F8C300;
+}
+
+.learnMore:hover{
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
     transform: scale(1.04);
 }
 
