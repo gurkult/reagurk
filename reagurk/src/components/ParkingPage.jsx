@@ -1,29 +1,11 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
-import gurkultImg from './images/parkingpage/gurkult.png';
-import {shopURL, githubURL} from './constants';
+import {githubURL} from './constants';
 import './ParkingPage.css';
-
+import {Navbar} from './Navbar'
 export function ParkingPage(){
     return (
         <div className="content">
-            <div className="navbar">
-                <ul>
-                    <li>
-                        <img src={gurkultImg} className="icon" alt="The gurkan"/>
-                    </li>
-
-                    <li>
-                        <a href={shopURL} target="_blank" rel="noopener noreferrer">Store</a>
-                    </li>
-                    <li>
-                        <a href={githubURL} target="_blank" rel="noopener noreferrer">Contribute</a>
-                    </li>
-                    <li>
-                        <NavLink target="_blank" to="/discord">Discord Server</NavLink>
-                    </li>
-                </ul>
-            </div>
+            <Navbar />
             <div className="textbody">
                 <div className="header">
                     <h1 style={{color: "green", }}>Gurkult Headquarters</h1>
