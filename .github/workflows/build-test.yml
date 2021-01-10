@@ -1,9 +1,9 @@
-name: Continuous Integration
+name: Build & Test
 
-on: [pull_request]
+on: [push, pull_request]
 
 jobs: 
-  buildAndTest:
+  build-test:
     name: Build and Test 
     runs-on: ubuntu-latest
     steps:
