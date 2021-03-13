@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap");
+.cards-container {
+  display: block;
+  margin: 3rem auto;
+  width: 90%;
+  .head {
+    display: block;
+    max-width: 480px;
+    padding: 1rem 0;
+    border-radius: 10px;
+    border: 3px solid #f1c401;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    background: transparent;
+    h1,
+    h4 {
+      color: black;
+      font-weight: 300;
+    }
+    h1 {
+      font-size: 2.7rem;
+    }
+    h4 {
+      font-size: 2rem;
+    }
+  }
+  .cards {
+    padding: 1rem 0;
+    margin: 1rem auto;
+    .card {
+      width: auto;
+      background: #f1c401;
+      border-radius: 1.5rem;
+      padding: 0 0.5rem;
+      margin: 4rem auto;
+      height: 420px;
+      button {
+        color: black;
+        font-size: 3rem;
+        margin: auto;
+        padding: 1.4rem 0;
+        width: 90%;
+        border: none;
+        border-radius: 10px;
+        border: 2px solid #333;
+        background: transparent;
+        transition: all ease-in-out 0.4s;
+        &:hover {
+          border: 2px solid white;
+          background: white;
+          color: black;
+        }
+      }
+      .card-icon {
+        width: 16px;
+        margin: 0 0.2rem 0 0;
+      }
+      h1 {
+        font-size: 3rem;
+        margin: 1.6rem auto;
+        font-weight: 600;
+      }
+      ul {
+        margin: auto 0;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        list-style: none;
+        font-family: "Lora", sans-serif;
+        li {
+          font-size: 1.6rem;
+          margin: auto 0;
+          font-weight: 500;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+        }
+      }
+    }
+  }
+}
+
+// ============ media queries desktop verison =========
+
+@media only screen and(orientation:landscape) {
+  .cards {
+    .card {
+      width: 320px;
+      //   max-width: 360px;
+      margin: 1rem 1rem;
+    }
+    display: flex;
+    flex-direction: row;
+  }
+}
