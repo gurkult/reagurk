@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import falsecheck from "./false.png";
 import truecheck from "./true.png";
 import "./carrds.css";

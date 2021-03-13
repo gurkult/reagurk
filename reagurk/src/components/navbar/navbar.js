@@ -1,8 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
 import "./navbar.css";
 import banner from "./gurkult.png";
 import Button from "@material-ui/core/Button";
-import { makeStyles, createStyles, Theme } from "@material-ui/core/styles";
+import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme) => ({
   root: {
