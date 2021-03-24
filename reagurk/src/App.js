@@ -1,7 +1,7 @@
 import React from 'react';
 import {ParkingPage} from "./components/ParkingPage";
 import {Discord} from "./components/Discord"
-import './App.css';
+import './styles/App.css';
 import {BrowserRouter as Router, Switch, Route,} from "react-router-dom";
 
 function App() {
