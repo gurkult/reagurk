@@ -9,7 +9,7 @@ import crown from '../assets/crown.png'
 
 const navigation = [
   { name: "Discord", href: `${serverInvite}`, current: false },
-  { name: "Contribute", href: `${github}`, current: false },
+  { name: "GitHub", href: `${github}`, current: false },
   { name: "Store", href: `${shop}`, current: false },
 ]
 
@@ -124,13 +124,12 @@ export default function Hero() {
 
           <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
             <div className="sm:text-center lg:text-left">
-              <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white sm:text-5xl md:text-6xl">
-                <span className="block xl:inline">Data to enrich your</span>{' '}
-                <span className="block text-green-500 xl:inline">online business</span>
+              <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white sm:text-5xl">
+                <span className="block xl:inline">Open Source Community</span>{' '}
+                <span className="block text-green-500 xl:inline">Learn By Doing</span>
               </h1>
               <p className="mt-3 text-base text-gray-500 dark:text-gray-400 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-                fugiat veniam occaecat fugiat aliqua.
+                Learn open source by contributing to real world projects. Be a part of an inclusive, international community of developers.
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
@@ -138,7 +137,7 @@ export default function Hero() {
                     href="/"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-500 hover:bg-green-400 md:py-4 md:text-lg md:px-10"
                   >
-                    Get started
+                    Join now
                   </a>
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">
@@ -146,7 +145,7 @@ export default function Hero() {
                     href="/"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-green-700 bg-green-100 hover:bg-green-200 md:py-4 md:text-lg md:px-10"
                   >
-                    Live demo
+                    Leave
                   </a>
                 </div>
               </div>
