@@ -23,7 +23,7 @@ export default function App() {
 
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
       </head>
-      <body>
+      <body className="relative bg-white dark:bg-gray-800 overflow-hidden">
         <Hero />
       </body>
     </div>
