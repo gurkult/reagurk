@@ -28,6 +28,12 @@ Once you are in your local repo, use `git checkout develop`, then `git checkout 
 
 The convention we use for naming is the type of change being made, followed by a short and descriptive name for the change. I.e if I am adding a new feature to create a footer for the website, I would do `git checkout -b feature/footer`. If you were fixing a bug with a home page's title, you could do `fix/home-title` or maybe `bugfix/home-title`.
 
+### Developing
+
+To work on this project, you'll need to have [Node.js](https://nodejs.org/) installed.
+
+To install all the required dependencies, run `npm install`. Then, you can run `npm start` to start the React development server on http://localhost:3000.
+
 ### Committing
 
 You should commit as often as is reasonable to make changes readable and logical. Pushing is not necessary on every commit. For small changes in a larger pool of changes, it is acceptable to write brief commit messages such as `change h1 to h3 in footer`, however it is important to have a good commit message for your pull request. Major changes should have full commit messages.

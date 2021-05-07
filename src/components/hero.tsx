@@ -2,7 +2,7 @@
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
-import { serverInvite, github, shop } from '../constants';
+import { serverInvite, github, shop, rickRoll } from '../constants';
 import gurks from '../assets/gurks.png'
 import crown from '../assets/crown.png'
 
@@ -47,7 +47,7 @@ export default function Hero() {
                           />
                         </a>
                         <div className="-mr-2 flex items-center md:hidden">
-                          <Popover.Button className="rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                          <Popover.Button className="rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                             <span className="sr-only">Open main menu</span>
                             <MenuIcon className="h-6 w-6" aria-hidden="true" />
                           </Popover.Button>
@@ -92,7 +92,7 @@ export default function Hero() {
                           />
                         </div>
                         <div className="-mr-2">
-                          <Popover.Button className="rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                          <Popover.Button className="rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                             <span className="sr-only">Close main menu</span>
                             <XIcon className="h-6 w-6" aria-hidden="true" />
                           </Popover.Button>
@@ -134,7 +134,7 @@ export default function Hero() {
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
                   <a
-                    href="/"
+                    href={serverInvite}
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-500 hover:bg-green-400 md:py-4 md:text-lg md:px-10"
                   >
                     Join now
@@ -142,7 +142,7 @@ export default function Hero() {
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">
                   <a
-                    href="/"
+                    href={rickRoll}
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-green-700 bg-green-100 hover:bg-green-200 md:py-4 md:text-lg md:px-10"
                   >
                     Leave
