@@ -1,0 +1,8 @@
+User-agent: Xithrius
+Disallow:
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: *
+Disallow: /
