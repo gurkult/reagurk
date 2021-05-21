@@ -34,8 +34,6 @@ To work on this project, you'll need to have [Node.js](https://nodejs.org/) inst
 
 To install all the required dependencies, run `npm install`. Then, you can run `npm run start` to start the React development server on http://localhost:3000.
 
-Make sure to run `npm run build` before you commit to make sure the deployment will be up to date.
-
 ### Committing
 
 You should commit as often as is reasonable to make changes readable and logical. Pushing is not necessary on every commit. For small changes in a larger pool of changes, it is acceptable to write brief commit messages such as `change h1 to h3 in footer`, however it is important to have a good commit message for your pull request. Major changes should have full commit messages.
