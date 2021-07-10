@@ -6,3 +6,6 @@ coverage
 
 # lockfile
 yarn.lock
+
+# production
+/build/
