@@ -1,11 +1,2 @@
-# dependencies
-node_modules
-
-# testing
-coverage
-
-# lockfile
-yarn.lock
-
-# production
-/build/
+.idea
+.vscode

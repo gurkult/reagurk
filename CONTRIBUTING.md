@@ -32,7 +32,7 @@ The convention we use for naming is the type of change being made, followed by a
 
 To work on this project, you'll need to have [Node.js](https://nodejs.org/) installed.
 
-To install all the required dependencies, run `npm install`. Then, you can run `npm run start` to start the React development server on http://localhost:3000.
+To install all the required dependencies, run `yarn install`. Then, you can run `yarn start` to start the React development server on http://localhost:3000.
 
 ### Committing
 
