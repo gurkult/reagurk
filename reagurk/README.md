@@ -11,4 +11,6 @@ To start the development server on http://localhost:3000, run `yarn start`.
 
 To build for production, run `yarn build` and start the production server on http://localhost:5000 with `yarn serve`.
 
-If you have an questions, feel free to ask over on Discord.
+Make sure to lint with the `yarn lint` command.
+
+If you have any questions, feel free to ask over on Discord.
