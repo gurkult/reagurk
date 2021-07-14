@@ -1,4 +1,4 @@
-export const serverInvite: string = "https://discord.gg/f6TH4rd5uw";
-export const shop: string = "https://gurkult.redbubble.com";
-export const github: string = "https://github.com/gurkult/";
-export const rickRoll: string = "https://youtu.be/dQw4w9WgXcQ";
+export const serverInvite = 'https://discord.gg/f6TH4rd5uw';
+export const shop = 'https://gurkult.redbubble.com';
+export const github = 'https://github.com/gurkult/';
+export const rickRoll = 'https://youtu.be/dQw4w9WgXcQ';

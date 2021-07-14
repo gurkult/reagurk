@@ -1,19 +1,19 @@
-/* This example requires Tailwind CSS v2.0+ */
-import { Fragment } from 'react'
-import { Popover, Transition } from '@headlessui/react'
-import { MenuIcon, XIcon } from '@heroicons/react/outline'
+import React from 'react';
+import { Fragment } from 'react';
+import { Popover, Transition } from '@headlessui/react';
+import { MenuIcon, XIcon } from '@heroicons/react/outline';
 import { serverInvite, github, shop, rickRoll } from '../constants';
-import gurks from '../assets/gurks.png'
-import crown from '../assets/crown.png'
+import gurks from '../assets/gurks.png';
+import crown from '../assets/crown.png';
 
 
 const navigation = [
-  { name: "Discord", href: `${serverInvite}`, current: false },
-  { name: "GitHub", href: `${github}`, current: false },
-  { name: "Store", href: `${shop}`, current: false },
-]
+  { name: 'Discord', href: `${serverInvite}`, current: false },
+  { name: 'GitHub', href: `${github}`, current: false },
+  { name: 'Store', href: `${shop}`, current: false },
+];
 
-export default function Hero() {
+export default function Hero(): JSX.Element {
   return (
     <div className="relative bg-white dark:bg-gray-800 overflow-hidden">
       <div className="max-w-7xl mx-auto">
@@ -161,5 +161,5 @@ export default function Hero() {
         />
       </div>
     </div>
-  )
+  );
 }
