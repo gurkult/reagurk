@@ -47,7 +47,7 @@ export default function Hero(): JSX.Element {
                           />
                         </a>
                         <div className="-mr-2 flex items-center md:hidden">
-                          <Popover.Button className="rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                          <Popover.Button className="rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 dark:hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                             <span className="sr-only">Open main menu</span>
                             <MenuIcon className="h-6 w-6" aria-hidden="true" />
                           </Popover.Button>
@@ -56,11 +56,16 @@ export default function Hero(): JSX.Element {
                     </div>
                     <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
                       {navigation.map((item) => (
-                        <a key={item.name} href={item.href} className="font-medium text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-500">
+                        <a
+                          key={item.name}
+                          href={item.href}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="font-medium text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-500">
                           {item.name}
                         </a>
                       ))}
-                      <a href={serverInvite} className="font-medium text-green-600 hover:text-green-500">
+                      <a href={serverInvite} target="_blank" rel="noreferrer" className="font-medium text-green-600 hover:text-green-500">
                         Join Us
                       </a>
                     </div>
@@ -92,7 +97,7 @@ export default function Hero(): JSX.Element {
                           />
                         </div>
                         <div className="-mr-2">
-                          <Popover.Button className="rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                          <Popover.Button className="rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 dark:hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                             <span className="sr-only">Close main menu</span>
                             <XIcon className="h-6 w-6" aria-hidden="true" />
                           </Popover.Button>
@@ -102,6 +107,8 @@ export default function Hero(): JSX.Element {
                         {navigation.map((item) => (
                           <a
                             key={item.name}
+                            target="_blank"
+                            rel="noreferrer"
                             href={item.href}
                             className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-700"
                           >
@@ -111,6 +118,8 @@ export default function Hero(): JSX.Element {
                       </div>
                       <a
                         href={serverInvite}
+                        target="_blank"
+                        rel="noreferrer"
                         className="block w-full px-5 py-3 text-center font-medium text-green-600 bg-gray-50 dark:bg-gray-900 hover:bg-gray-100 dark:hover:bg-gray-700"
                       >
                         Join Us
@@ -143,6 +152,8 @@ export default function Hero(): JSX.Element {
                 <div className="mt-3 sm:mt-0 sm:ml-3">
                   <a
                     href={rickRoll}
+                    target="_blank"
+                    rel="noreferrer"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-green-700 bg-green-100 hover:bg-green-200 md:py-4 md:text-lg md:px-10"
                   >
                     Leave
