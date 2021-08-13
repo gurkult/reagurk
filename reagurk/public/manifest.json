@@ -1,6 +1,6 @@
 {
   "short_name": "Gurkult",
-  "name": "An Open Source Community",
+  "name": "Gurkult - An Open Source Community",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,12 +8,7 @@
       "type": "image/x-icon"
     },
     {
-      "src": "favicon.ico",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "favicon.ico",
+      "src": "logo.png",
       "type": "image/png",
       "sizes": "512x512"
     }

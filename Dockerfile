@@ -6,7 +6,7 @@ FROM node:latest AS builder
 WORKDIR /app
 COPY ./reagurk .
 
-RUN npm install && npm run build
+RUN yarn install && yarn build
 
 FROM scratch
 
