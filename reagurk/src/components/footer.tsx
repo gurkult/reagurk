@@ -1,6 +1,5 @@
 import React from 'react';
 
-export {};
 
 export default function Footer(): JSX.Element {
 
