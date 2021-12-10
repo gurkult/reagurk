@@ -5,9 +5,7 @@ export {};
 export default function Footer(): JSX.Element {
 
   return (
-
     <>
-    
       <footer className="text-gray-400 bg-gray-800 body-font fixed
              inset-x-0
              bottom-0">
