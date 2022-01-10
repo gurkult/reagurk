@@ -19,7 +19,7 @@ export default function Footer(): JSX.Element {
 
     <>
     
-      <footer className="text-gray-400 bg-gray-800 body-font fixed
+      <footer className="text-gray-400 bg-gray-800 body-font md:fixed
              inset-x-0
              bottom-0">
         <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
