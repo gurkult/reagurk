@@ -27,11 +27,8 @@ jobs:
         
       - name: Build Site
         run: yarn build
-
-
-      - name: Upload Artifacts
-        uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v2
         with:
           name: website
-          path: |
-            reagurk/build/**
+          path: reagurk/build/**
+          if-no-files-found: error
