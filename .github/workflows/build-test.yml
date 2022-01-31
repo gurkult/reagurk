@@ -26,4 +26,4 @@ jobs:
         run: yarn eslint --ignore-path .gitignore .
         
       - name: Build Site
-        run: yarn build:production
+        run: yarn build
