@@ -32,7 +32,7 @@ jobs:
         run: tar -zcvf reagurk.tar.gz build
 
       - name: Create Release
-#         if: github.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/main'
         id: create_release
         uses: actions/create-release@v1
         env:
@@ -42,7 +42,7 @@ jobs:
           release_name: Release ${{ github.ref_name }}-${{ github.run_id }}
     
       - name: Upload Release Asset
-#         if: github.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/main'
         id: upload-release-asset 
         uses: actions/upload-release-asset@v1
         env:
