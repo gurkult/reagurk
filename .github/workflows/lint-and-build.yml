@@ -1,4 +1,4 @@
-name: Build & Test
+name: Lint & Build
 
 on: [push, pull_request]
 
@@ -22,5 +22,13 @@ jobs:
       - name: Install dependencies
         run: yarn install
 
-      - name: Run Tests
+      - name: Run Linter
         run: yarn eslint --ignore-path .gitignore .
+        
+      - name: Build Site
+        run: yarn build
+      - uses: actions/upload-artifact@v2
+        with:
+          name: website
+          path: reagurk/build/**
+          if-no-files-found: error
