@@ -1,4 +1,4 @@
-name: Lint & Build
+name: Lint, Build, Release
 
 on: [push, pull_request]
 
@@ -27,8 +27,21 @@ jobs:
         
       - name: Build Site
         run: yarn build
+        
       - uses: actions/upload-artifact@v2
         with:
           name: website
           path: reagurk/build/**
           if-no-files-found: error
+
+      - name: Create release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        if: github.ref == 'refs/heads/main'
+        with:
+          tag_name: ${{ github.sha }}
+          release_name: Release ${{ github.ref_name }}-${{ github.sha }}
+          draft: false
+          prerelease: true
