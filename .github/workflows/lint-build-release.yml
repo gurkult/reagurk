@@ -29,7 +29,7 @@ jobs:
         run: yarn build
         
       - name: Gzip Build
-        run: tar -zcvf reagurk.tar.gz reagurk/build
+        run: tar -zcvf reagurk.tar.gz build
 
       - name: Create Release
         id: create_release
