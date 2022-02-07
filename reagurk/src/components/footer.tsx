@@ -18,11 +18,11 @@ export default function Footer(): JSX.Element {
             Made with ♥ in Gurkland
           </p>
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-            <a className="text-gray-400" href={github}>
-              <img className='w-10 pt-6 ' src={githubIcon} />
+            <a className="text-gray-400" target="_blank" rel="noreferrer" href={github}>
+              <img className="w-10 pt-6" src={githubIcon} />
             </a>
-            <a className="ml-3 text-gray-400" href={serverInvite}>
-              <img className='w-10 pt-7' src={discordIcon} />
+            <a className="ml-3 text-gray-400" target="_blank" rel="noreferrer" href={serverInvite}>
+              <img className="w-10 pt-7" src={discordIcon} />
             </a>
           </span>
         </div>
